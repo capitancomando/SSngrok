@@ -16,7 +16,7 @@ $ ls
 
 $ cd SSngrok
 
-$ chmod SSngrok.sh
+$ chmod 711 SSngrok.sh
 
 $ ls
 
