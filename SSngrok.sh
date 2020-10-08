@@ -52,7 +52,7 @@ function opcion4
 
 while [ $opcion != "5"  ]
     do 
-	
+setterm -foreground green
 	echo -e "\nMENU"
 	echo -e "\t1) SOLUCIONAR LINK NO GENERA NGROK"
 	echo -e "\t2) SOLUCION DE PUERTOS NGROK"
@@ -169,7 +169,7 @@ cp $PREFIX/bin/ngrok ~/grabcam
 done
   
 
-
+setterm -foreground green
 
  echo -e "\n\nBBBBBB  YY    YY EEEEEEE"
  echo        "BB  BBB  YY YY   EE     "
