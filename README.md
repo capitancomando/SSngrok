@@ -18,4 +18,9 @@ $ cd SSngrok
 
 $ chmod SSngrok.sh
 
+$ ls
+
+$ bash SSngrok.sh
+
+
 CREADOR: Capitán Comando.
