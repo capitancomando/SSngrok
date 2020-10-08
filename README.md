@@ -1,5 +1,5 @@
 # SSngrok
-SSngrok significa: Servicio Solucion Ngrok
+📱SSngrok significa: Servicio Solucion Ngrok📱
 
 este script trae la instalacion automatica de
 ngrok y tambien contiene soluciones de ngrok
