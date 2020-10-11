@@ -150,6 +150,7 @@ cp $PREFIX/bin/ngrok ~/grabcam
 		"3" ) 
               git clone https://github.com/TermuxHacking000/NgrokTH
               mv NgrokTH /data/data/com.termux/files/home
+              termux-open /data/data/com.termux/files/home/NgrokTH
               cd NgrokTH
               chmod 711 ngrok.sh
               ./ngrok.sh
