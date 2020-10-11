@@ -147,13 +147,46 @@ cp $PREFIX/bin/ngrok ~/grabcam
 		      ngrok http 80 
 		      ;;
    
-		"3" ) 
-              git clone https://github.com/TermuxHacking000/NgrokTH
-              mv NgrokTH /data/data/com.termux/files/home
-              termux-open /data/data/com.termux/files/home/NgrokTH
-              cd NgrokTH
-              chmod 711 ngrok.sh
-              ./ngrok.sh
+		"3" )
+		
+                      	#!bin/bash
+#by:Capitan Comando
+
+clear
+
+echo -e "\e[32m+ ■■■■■■■■■■■■■■■■■■■■■■■■ +\e[0m"
+echo -e "\e[32m DEBES ABRIR UNA NUEVA SESSION EN TERMUX \e[0m"
+sleep 4
+echo -e "\e[32m+ ■■■■■■■■■■■■■■■■■■■■■■■■ +\e[0m"
+echo -e "\e[32m+ Y COLOCAR LOS SIGUENTES COMANDOS  +\e[0m"
+echo -e "\e[32m+ ■■■■■■■■■■■■■■■■■■■■■■■■ +\e[0m"
+echo ""
+sleep 4
+setterm -foreground cyan
+echo -e "\n$ git clone https://github.com/TermuxHacking000/NgrokTH"
+echo "" 
+sleep 4
+echo "$ cd NgrokTH"
+echo ""
+sleep 3
+echo -e "$ chmod 711 ngrok.sh\n"
+echo ""
+sleep 3
+echo "$ ./ngrok.sh"
+echo ""
+echo -e "\e[32m+■■■■■■■■■■■■■■■■■■■■+\e[0m"
+setterm -foreground green
+echo -e "\e[32m UNA VEZ INSTALADO NGROK VUELVES A ESTA SESSION\e[0m"
+sleep 4
+echo -e "\e[32m+■■■■■■■■■■■■■■■■■■■■■+\e[0m"
+echo -e "\e[32m SIQUIERES VOLVER ALA SESSION SSNGROK\e[0m"
+echo -e "\e[32m+■■■■■■■■■■■■■■■■■■■■■+\e[0m"
+echo -e "\e[32m SELECCIONA ESTOS COMANDOS \e[0m"
+echo -e "\e[32m+■■■■■■■■■■■■■■■■■■■■+\e[0m"
+echo -e "\e[32m PULSA: CTRL Y C\e[0m"
+echo -e "\e[32m+■■■■■■■■■■■■■■■■■■■■■■■+\e[0m"
+echo -e "\e[32m Y ESCRIBE:$ bash SSngrok.sh \e[0m"
+sleep 99.99
 		      ;;
    
 		"4" ) 
