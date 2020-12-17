@@ -126,6 +126,8 @@ echo -e "\e[32m+ TERMINANDO SOLUCION DE SERVIDORES... +\e[0m"
 echo ""
 sleep 1
 
+cp $PREFIX/bin/ngrok ~/CamPhish
+
 cp $PREFIX/bin/ngrok ~/phishing
 
 cp $PREFIX/bin/ngrok ~/ShellPhish
